@@ -1,0 +1,15 @@
+//
+//  Production.xcconfig
+//  Runner
+//
+//  Created by Joed Santiago on 4/11/21.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+#include "Generated.xconfig"
+#include? "Pods/Target Support Files/Pods-Runner/Pods-Runner.release.xcconfig"
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+FLUTTER_TARGET=build_config/prod.dart
